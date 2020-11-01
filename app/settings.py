@@ -27,7 +27,7 @@ SECRET_KEY = SECRET_KEY = os.environ.get('SECRET_KEY'),
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get('DEBUG'),
 
-ALLOWED_HOSTS = SECRET_KEY = os.environ.get('SECRET_KEY'),
+ALLOWED_HOSTS = SECRET_KEY = os.environ.get('ALLOWED_HOSTS'),
 
 
 # Application definition
@@ -39,7 +39,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'neighborhood'
+    'neighborhood',
+    'bootstrap4',
+    'cloudinary',
 ]
 
 MIDDLEWARE = [
