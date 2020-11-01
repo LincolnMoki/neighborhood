@@ -27,6 +27,23 @@
         </div>
 
 
+        <div style="background-color:#E5E7E9; margin-top:20px; margin-right:2px; margin-left:2px;" class="col-md-3">
+            <br>
+              <p>click <a class="img-thumbnail" href="{%url 'new_business' pk=neighbourhood.id %}" style="text-decoration:none;">here</a> to post about your business</p>
+              {%if businesses%}
+              {%for business in businesses%}
+  
+              <p><b>name:</b> {{business.name}}</p>
+              <p><b>description:</b> {{business.description}}</p>
+              <p><b>contact:</b> {{business.email}}</p>
+              <hr>
+              {%endfor%}
+              {%else%}
+              <p><b>no business at the moment</b></p>
+              {%endif%}
+          </div>
+  
+
 
 
         
