@@ -45,4 +45,9 @@ class Business(models.Model):
         self.save()
 
     def delete_business(self):
-        self.dele        
+        self.delete()
+
+class Post(models.Model):
+    post=models.CharField(max_length=200)
+    user=models.ForeignKey(User,on_delete=models.CASCADE)
+    neighborhood=models.ForeignKey(Neighbourhood,on_delete=models.CASCADE)
