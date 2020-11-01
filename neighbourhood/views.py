@@ -41,7 +41,7 @@ def profile(request):
 
     return render(request, 'registration/profile.html',locals())
 
- @login_required(login_url='/accounts/login/')
+@login_required(login_url='/accounts/login/')
 def addneighbourhood(request):
     neighbourform = NeighbourhoodForm()
     neighbourform.owner = request.user

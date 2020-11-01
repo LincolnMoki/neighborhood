@@ -1,0 +1,156 @@
+body{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 25px;
+}
+.navbar{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 25px;
+}
+h4{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 25px;
+}
+h1{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 25px;
+}
+
+.steve{
+  background-image: url("https://bit.ly/32lt76L");
+  background-size: cover;
+  height: 50vh;
+  /* background-attachment: fixed; */
+  background-position: center;
+  
+}
+.ongati{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+
+}
+.ongati h1{
+  color: white;
+}
+
+
+.box {
+  width: auto;
+  height: 100px;
+  background-color: #6a2e79;
+  margin: 0 auto;
+  float: left;
+  font-size: 100px;
+  padding: 20px;
+  color: #fff;
+}
+
+/* Step 1: Build the Animation */
+@-webkit-keyframes aniload {
+  from {
+    -webkit-transform: translate(0px, 1000px);
+  }
+  to {
+    -webkit-transform: translate(0px, 0px);
+  }
+}
+
+@-moz-keyframes aniload {
+  from {
+    -moz-transform: translate(0px, 1000px);
+  }
+  to {
+    -moz-transform: translate(0px, 0px);
+  }
+}
+
+@-ms-keyframes aniload {
+  from {
+    -ms-transform: translate(0px, 1000px);
+  }
+  to {
+    -ms-transform: translate(0px, 0px);
+  }
+}
+
+@-o-keyframes aniload {
+  from {
+    -o-transform: translate(0px, 1000px);
+  }
+  to {
+    -o-transform: translate(0px, 0px);
+  }
+}
+
+@keyframes aniload {
+  from {
+    transform: translate(0px, 1000px);
+  }
+  to {
+    transform: translate(0px, 0px);
+  }
+}
+
+/* Step 2: Call the Animation */
+#box1 {
+  -webkit-animation: aniload 4s;
+  -moz-animation: aniload 4s;
+  -ms-animation: aniload 4s;
+  -o-animation: aniload 4s;
+  animation: aniload 4s;
+}
+
+#box2 {
+  -webkit-animation: aniload 1s;
+  -moz-animation: aniload 1s;
+  -ms-animation: aniload 1s;
+  -o-animation: aniload 1s;
+  animation: aniload 1s;
+}
+
+#box3 {
+  -webkit-animation: aniload 4s;
+  -moz-animation: aniload 4s;
+  -ms-animation: aniload 4s;
+  -o-animation: aniload 4s;
+  animation: aniload 4s;
+}
+
+#box4 {
+  -webkit-animation: aniload 3s;
+  -moz-animation: aniload 3s;
+  -ms-animation: aniload 3s;
+  -o-animation: aniload 3s;
+  animation: aniload 3s;
+}
+
+#box5 {
+  -webkit-animation: aniload 2s;
+  -moz-animation: aniload 2s;
+  -ms-animation: aniload 2s;
+  -o-animation: aniload 2s;
+  animation: aniload 2s;
+}
+
+.copyright {
+  width: 100%;
+  height: auto;
+  background-color: #171717;
+  color: #aaa;
+  position: fixed;
+  bottom: 0px;
+  font: 12px Arial;
+  padding: 5px;
+  opacity: 0.4;
+  border-top: #a00 2px solid;
+  z-index: 99999;
+  left: 0px;
+  right: 0px;
+}
+.copyright:hover {
+  opacity: 1;
+}
+
+/* Ayhan Altınok*/
