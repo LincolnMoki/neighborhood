@@ -22,23 +22,31 @@ h1{
   /* background-attachment: fixed; */
   /* background-position: center;
   
-} */ */
+} */ 
 .rome{
   position: absolute;
   top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #ffffff;
+  
 
 }
-.rome h1{
-  color: white;
-}
 .rome p{
-  color: white;
+ 
+  color: #ffffff;
+
 }
-.rome a{
-  color: white
+.ronny h1{
+  color: white; 
+
+}
+.ronny p{
+  color: white;
+  
+}
+.ronny a{
+  color: white;  
 }
 
 
@@ -159,8 +167,9 @@ h1{
   opacity: 1;
 }
 
+
 /* Ayhan Altınok*/
-@media (min-width: 800px) and (max-width: 850px) {
+@media (min-width: 300px) and (max-width: 350px) {
   .navbar:not(.top-nav-collapse) {
       background: #1C2331!important;
   }
