@@ -23,6 +23,9 @@
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:500i,600,600i,700,700i|Roboto" rel="stylesheet">
   <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
 
 
   {% endblock %}
@@ -33,7 +36,7 @@
   {% include "navbar.html" %}
   {% block content %} 
    
-    <div class="view" style="background-image: url('https://cdn.pixabay.com/photo/2014/10/01/08/57/night-photograph-468139_960_720.jpg'); background-repeat: no-repeat; 
+    <div class="view" style="background-image: url('https://cdn.pixabay.com/photo/2016/01/11/18/20/city-1134141_960_720.jpg'); background-repeat: no-repeat; 
     background-size: cover; background-attachment: fixed;
      background-position: center;">
 
@@ -64,7 +67,7 @@
           <br>
           
         
-          <a target="_blank" href="{% url 'addneighbourhood' %}" class="btn btn-outline-success btn-lg">Add Neighbourhood
+          <a target="_blank" href="{% url 'addneighbourhood' %}" class="btn btn-success btn-lg">Add Neighbourhood
             <i class="fas fa-home-cap ml-2"></i>
           </a>
         </div>
