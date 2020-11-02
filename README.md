@@ -7,7 +7,7 @@ Mountain Place Community is a platform that allows you to be updated with what's
 ## BDD
 
 <img src="rome1.png">
-<img src="rome2.png
+<img src="rome2.png">
 
 
 
@@ -61,4 +61,4 @@ https://mountain-place.herokuapp.com/
 
 ### License
 
-* LICENSED UNDER  [![License: MIT](https://github.com/RonnyLincoln/neighborhood/blob/master/LICENSE)](license/MIT)
+* LICENSED UNDER  [![License: MIT]](license/MIT)
