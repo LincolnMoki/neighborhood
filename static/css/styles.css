@@ -15,15 +15,15 @@ h1{
   font-size: 25px;
 }
 
-.steve{
-  background-image: url("https://bit.ly/32lt76L");
+/* .ronny{
+  background-image: url("https://images.squarespace-cdn.com/content/v1/5a6eb76318b27d11351352e4/1567713981337-QPTXZ81J8ZDP7XUDOOIN/ke17ZwdGBToddI8pDm48kLnfZvQ9iwxKU6eubAUQjId7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1Uf479GMBNBfhHsrrjiU7oVFJ8_wlwITqu6jJqO9L0NwOoT__5iE7svB1u_pQDzoSaA/calabasas");
   background-size: cover;
   height: 50vh;
   /* background-attachment: fixed; */
-  background-position: center;
+  /* background-position: center;
   
-}
-.ongati{
+} */ */
+.rome{
   position: absolute;
   top: 30%;
   left: 50%;
@@ -31,8 +31,14 @@ h1{
   color: #ffffff;
 
 }
-.ongati h1{
+.rome h1{
   color: white;
+}
+.rome p{
+  color: white;
+}
+.rome a{
+  color: white
 }
 
 
@@ -154,3 +160,9 @@ h1{
 }
 
 /* Ayhan Altınok*/
+@media (min-width: 800px) and (max-width: 850px) {
+  .navbar:not(.top-nav-collapse) {
+      background: #1C2331!important;
+  }
+}
+.view,body,html{height:100%}.navbar{background-color:rgba(0,0,0,.2)}.page-footer,.top-nav-collapse{background-color:#1C2331}@media only screen and (max-width:768px){.navbar{background-color:#1C2331}}
