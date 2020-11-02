@@ -4,11 +4,7 @@ Neighborhood
 
 ##  Project Description
 Mountain Place Community is a platform that allows you to be updated with what's happening in your neighborhood.
-## BDD
 
-<img src="rome1.png">
-
-<img src="rome2.png">
 
 
 
